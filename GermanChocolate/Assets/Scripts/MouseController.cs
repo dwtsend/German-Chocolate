@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class MouseController : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class MouseController : MonoBehaviour
     public Texture2D selectionCursorTexture;
     private Vector2 selectionHotSpot;
     private CursorMode cursorMode = CursorMode.Auto;
+
+    public NavMeshAgent agent;
 
 	// Use this for initialization
 	void Start ()
@@ -35,6 +38,9 @@ public class MouseController : MonoBehaviour
                     Cursor.SetCursor(mainCursorTexture, mainHotSpot, cursorMode);
                     break;
             }
+
+            if (Input.GetMouseButton(1))
+                agent.SetDestination(rayHit.point);
         }
 
        
