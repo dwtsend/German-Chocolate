@@ -7,33 +7,43 @@ public class CameraController : MonoBehaviour
 
     public float panSpeed = 20f;
     public float panBorderThickness = 10f;
+    public float scrollSpeed = 120f;
 
     // Update is called once per frame
     void Update ()
     {
         
-        Vector3 pos = transform.position;
+        //Store our current camera position
+        Vector3 cameraPosition = transform.position;
 
+        //Collect movement input from keys
         if (Input.GetKey("w"))
         {
-            pos.z += panSpeed * Time.deltaTime;
+            cameraPosition.z += panSpeed * Time.deltaTime;
         }
 
         if (Input.GetKey("s"))
         {
-            pos.z -= panSpeed * Time.deltaTime;
+            cameraPosition.z -= panSpeed * Time.deltaTime;
         }
 
         if (Input.GetKey("d"))
         {
-            pos.x += panSpeed * Time.deltaTime;
+            cameraPosition.x += panSpeed * Time.deltaTime;
         }
 
         if (Input.GetKey("a"))
         {
-            pos.x -= panSpeed * Time.deltaTime;
+            cameraPosition.x -= panSpeed * Time.deltaTime;
         }
 
-        transform.position = pos;
+        //Collect scroll movement
+        float scroll = Input.GetAxis("Mouse ScrollWheel");
+        cameraPosition.y -= scroll * scrollSpeed * Time.deltaTime;
+        cameraPosition.z += scroll * scrollSpeed * Time.deltaTime;
+
+        //Apply our movement changes to camera
+        transform.position = cameraPosition;
+
     }
 }
