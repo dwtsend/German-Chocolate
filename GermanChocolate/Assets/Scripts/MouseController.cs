@@ -25,8 +25,7 @@ public class MouseController : MonoBehaviour
         RaycastHit rayHit;
 
         if (Physics.Raycast(ray, out rayHit))
-        {
-            Debug.Log(rayHit.transform.gameObject.tag);
+        {            
             switch (rayHit.transform.gameObject.tag)
             {
                 case "Unit":
