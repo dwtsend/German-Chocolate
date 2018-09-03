@@ -1,0 +1,384 @@
+
+Convict.png
+size: 512,32
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+B1-Head
+  rotate: true
+  xy: 175, 14
+  size: 16, 18
+  orig: 16, 18
+  offset: 0, 0
+  index: -1
+B10-LowerLeg_L
+  rotate: true
+  xy: 429, 25
+  size: 5, 12
+  orig: 5, 12
+  offset: 0, 0
+  index: -1
+B10-LowerLeg_R
+  rotate: true
+  xy: 266, 15
+  size: 5, 12
+  orig: 5, 12
+  offset: 0, 0
+  index: -1
+B11-Foot_L
+  rotate: false
+  xy: 316, 18
+  size: 6, 3
+  orig: 6, 3
+  offset: 0, 0
+  index: -1
+B11-Foot_R
+  rotate: false
+  xy: 316, 18
+  size: 6, 3
+  orig: 6, 3
+  offset: 0, 0
+  index: -1
+F9-Foot_L
+  rotate: false
+  xy: 316, 18
+  size: 6, 3
+  orig: 6, 3
+  offset: 0, 0
+  index: -1
+F9-Foot_R
+  rotate: false
+  xy: 316, 18
+  size: 6, 3
+  orig: 6, 3
+  offset: 0, 0
+  index: -1
+B2-Shoulder_L
+  rotate: false
+  xy: 188, 4
+  size: 12, 8
+  orig: 12, 8
+  offset: 0, 0
+  index: -1
+F2-Shoulder_L
+  rotate: false
+  xy: 188, 4
+  size: 12, 8
+  orig: 12, 8
+  offset: 0, 0
+  index: -1
+B2-Shoulder_R
+  rotate: false
+  xy: 387, 22
+  size: 12, 8
+  orig: 12, 8
+  offset: 0, 0
+  index: -1
+F2-Shoulder_R
+  rotate: false
+  xy: 387, 22
+  size: 12, 8
+  orig: 12, 8
+  offset: 0, 0
+  index: -1
+B3-Belt
+  rotate: false
+  xy: 85, 2
+  size: 22, 7
+  orig: 22, 7
+  offset: 0, 0
+  index: -1
+B4-Hips
+  rotate: false
+  xy: 123, 13
+  size: 24, 17
+  orig: 24, 17
+  offset: 0, 0
+  index: -1
+B5-Torso
+  rotate: true
+  xy: 2, 8
+  size: 22, 41
+  orig: 22, 41
+  offset: 0, 0
+  index: -1
+B6-UpperArm_L
+  rotate: true
+  xy: 256, 22
+  size: 8, 18
+  orig: 8, 18
+  offset: 0, 0
+  index: -1
+B6-UpperArm_R
+  rotate: true
+  xy: 276, 22
+  size: 8, 18
+  orig: 8, 18
+  offset: 0, 0
+  index: -1
+B7-LowerArm_L
+  rotate: true
+  xy: 280, 14
+  size: 6, 11
+  orig: 6, 11
+  offset: 0, 0
+  index: -1
+B7-LowerArm_R
+  rotate: true
+  xy: 293, 14
+  size: 6, 11
+  orig: 6, 11
+  offset: 0, 0
+  index: -1
+B8-Hand_L
+  rotate: true
+  xy: 457, 25
+  size: 5, 9
+  orig: 5, 9
+  offset: 0, 0
+  index: -1
+F5-Hand_L
+  rotate: true
+  xy: 457, 25
+  size: 5, 9
+  orig: 5, 9
+  offset: 0, 0
+  index: -1
+B8-Hand_R
+  rotate: true
+  xy: 468, 25
+  size: 5, 9
+  orig: 5, 9
+  offset: 0, 0
+  index: -1
+B9-UpperLeg_L
+  rotate: true
+  xy: 202, 6
+  size: 6, 12
+  orig: 6, 12
+  offset: 0, 0
+  index: -1
+B9-UpperLeg_R
+  rotate: true
+  xy: 401, 24
+  size: 6, 12
+  orig: 6, 12
+  offset: 0, 0
+  index: -1
+F1-Head
+  rotate: true
+  xy: 195, 14
+  size: 16, 18
+  orig: 16, 18
+  offset: 0, 0
+  index: -1
+F10-Hips
+  rotate: false
+  xy: 149, 16
+  size: 24, 14
+  orig: 24, 14
+  offset: 0, 0
+  index: -1
+F11-Torso
+  rotate: true
+  xy: 45, 8
+  size: 22, 38
+  orig: 22, 38
+  offset: 0, 0
+  index: -1
+F3-UpperArm_L
+  rotate: true
+  xy: 336, 22
+  size: 8, 16
+  orig: 8, 16
+  offset: 0, 0
+  index: -1
+F3-UpperArm_R
+  rotate: true
+  xy: 354, 22
+  size: 8, 16
+  orig: 8, 16
+  offset: 0, 0
+  index: -1
+F4-LowerArm_L
+  rotate: false
+  xy: 170, 2
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+F4-LowerArm_R
+  rotate: false
+  xy: 179, 2
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1
+F5-Hand_R
+  rotate: true
+  xy: 479, 25
+  size: 5, 9
+  orig: 5, 9
+  offset: 0, 0
+  index: -1
+F6-Belt
+  rotate: false
+  xy: 109, 2
+  size: 22, 7
+  orig: 22, 7
+  offset: 0, 0
+  index: -1
+F7-UpperLeg_L
+  rotate: true
+  xy: 216, 6
+  size: 6, 12
+  orig: 6, 12
+  offset: 0, 0
+  index: -1
+F7-UpperLeg_R
+  rotate: true
+  xy: 415, 24
+  size: 6, 12
+  orig: 6, 12
+  offset: 0, 0
+  index: -1
+F8-LowerLeg_L
+  rotate: true
+  xy: 133, 6
+  size: 5, 14
+  orig: 5, 14
+  offset: 0, 0
+  index: -1
+F8-LowerLeg_R
+  rotate: true
+  xy: 235, 15
+  size: 5, 14
+  orig: 5, 14
+  offset: 0, 0
+  index: -1
+S1-Head
+  rotate: true
+  xy: 215, 14
+  size: 16, 18
+  orig: 16, 18
+  offset: 0, 0
+  index: -1
+S10-Hips
+  rotate: false
+  xy: 149, 2
+  size: 19, 12
+  orig: 19, 12
+  offset: 0, 0
+  index: -1
+S11-Torso
+  rotate: true
+  xy: 85, 11
+  size: 19, 36
+  orig: 19, 36
+  offset: 0, 0
+  index: -1
+S12-Hand copy
+  rotate: true
+  xy: 306, 15
+  size: 5, 8
+  orig: 5, 8
+  offset: 0, 0
+  index: -1
+S3-Hand
+  rotate: true
+  xy: 306, 15
+  size: 5, 8
+  orig: 5, 8
+  offset: 0, 0
+  index: -1
+S13-LowerArm copy
+  rotate: true
+  xy: 251, 15
+  size: 5, 13
+  orig: 5, 13
+  offset: 0, 0
+  index: -1
+S4-LowerArm
+  rotate: true
+  xy: 251, 15
+  size: 5, 13
+  orig: 5, 13
+  offset: 0, 0
+  index: -1
+S14-UpperArm copy
+  rotate: true
+  xy: 316, 23
+  size: 7, 18
+  orig: 7, 18
+  offset: 0, 0
+  index: -1
+S5-UpperArm
+  rotate: true
+  xy: 316, 23
+  size: 7, 18
+  orig: 7, 18
+  offset: 0, 0
+  index: -1
+S15-Shoulder copy
+  rotate: false
+  xy: 372, 22
+  size: 13, 8
+  orig: 13, 8
+  offset: 0, 0
+  index: -1
+S2-Shoulder
+  rotate: false
+  xy: 372, 22
+  size: 13, 8
+  orig: 13, 8
+  offset: 0, 0
+  index: -1
+S16-UpperLeg_B
+  rotate: true
+  xy: 296, 22
+  size: 8, 18
+  orig: 8, 18
+  offset: 0, 0
+  index: -1
+S7-UpperLeg_F
+  rotate: true
+  xy: 296, 22
+  size: 8, 18
+  orig: 8, 18
+  offset: 0, 0
+  index: -1
+S17-LowerLeg_B
+  rotate: true
+  xy: 443, 25
+  size: 5, 12
+  orig: 5, 12
+  offset: 0, 0
+  index: -1
+S8-LowerLeg_F
+  rotate: true
+  xy: 443, 25
+  size: 5, 12
+  orig: 5, 12
+  offset: 0, 0
+  index: -1
+S18-Foot_B
+  rotate: false
+  xy: 2, 2
+  size: 7, 4
+  orig: 7, 4
+  offset: 0, 0
+  index: -1
+S9-Foot_F
+  rotate: false
+  xy: 2, 2
+  size: 7, 4
+  orig: 7, 4
+  offset: 0, 0
+  index: -1
+S6-Belt
+  rotate: false
+  xy: 235, 22
+  size: 19, 8
+  orig: 19, 8
+  offset: 0, 0
+  index: -1

@@ -11,13 +11,19 @@ public class MouseController : MonoBehaviour
     private Vector2 selectionHotSpot;
     private CursorMode cursorMode = CursorMode.Auto;
 
-    public NavMeshAgent agent;
+    public List<NavMeshAgent> unitList;
 
 	// Use this for initialization
 	void Start ()
     {
         mainHotSpot = Vector2.zero;
         selectionHotSpot = new Vector2 (16f, 16f);
+
+        GameObject[] unitObjects = GameObject.FindGameObjectsWithTag("Unit");
+        foreach (GameObject unit in unitObjects)
+        {
+            unitList.Add(unit.GetComponentInChildren<NavMeshAgent>());
+        }
 	}
 	
 	// Update is called once per frame
@@ -40,7 +46,11 @@ public class MouseController : MonoBehaviour
             }
 
             if (Input.GetMouseButton(1))
-                agent.SetDestination(rayHit.point);
+            {
+                foreach (NavMeshAgent agent in unitList)
+                    agent.SetDestination(rayHit.point);
+            }
+                
         }
 
        
