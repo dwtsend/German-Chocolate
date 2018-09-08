@@ -19,6 +19,10 @@ public class UnitSprite : MonoBehaviour
     private AnimationReferenceAsset targetAnimation;
     private AnimationReferenceAsset previousAnimation;
 
+    private void Awake()
+    {
+      
+    }
     // Use this for initialization
     void Start()
     {
